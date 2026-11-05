@@ -15,7 +15,7 @@
 
 ---
 
-## 🎮 What is this?
+## What is this?
 
 **DeepSeaDiver** is a local two-player, head-to-head arcade game built with **Java** and **[Greenfoot](https://www.greenfoot.org/)**. Pilot your submarine through a pixel-art ocean floor, scoop up as many **gold coins** as you can, and stay alive while sharks patrol, jellyfish drift, and sea mines wait for a bad turn.
 
@@ -23,7 +23,7 @@ When the clock hits zero, whoever has more coins takes the trophy. 🏆
 
 ---
 
-## 🕹️ Controls
+## Controls
 
 Both players share one keyboard. Subs steer like real boats: **turn**, then **thrust**.
 
@@ -41,7 +41,7 @@ Both players share one keyboard. Subs steer like real boats: **turn**, then **th
 
 ---
 
-## 🧭 How to play
+## How to play
 
 1. **Choose your dive time**: press `1`–`5` on the title screen for a 1 to 5 minute match.
 2. **Collect coins** 🪙 to score. Each coin is worth 1 point, and a new one pops up somewhere else right after.
@@ -66,7 +66,7 @@ Sound effects play for coins, stings, bites, explosions, and victory, with loopi
 
 ---
 
-## 🚀 Run it yourself
+## Run it yourself
 
 ### Prerequisites
 - **Java JDK** (Greenfoot ships with one, so you usually don't need a separate install)
@@ -117,21 +117,6 @@ DeepSeaDiver/
 
 ---
 
-## 🔧 Ideas for future updates
-
-- [ ] Power-ups (speed boost, shield, magnet for coins)
-- [ ] Sonar torpedoes so subs can fight each other
-- [ ] Difficulty levels (more sharks, faster mines)
-- [ ] High-score tracking across matches
-- [ ] Solo mode against a bot sub
-
----
-
-## 👨‍💻 Author
-
-Made by **Rhey** ([@rhjazzraymundo](https://github.com/rhjazzraymundo)), a BSIT student who likes building things that blink, beep, and occasionally bite.
-
----
 
 <div align="center">
 
