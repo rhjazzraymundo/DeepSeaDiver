@@ -116,12 +116,3 @@ DeepSeaDiver/
 ```
 
 ---
-
-
-<div align="center">
-
-**If you enjoyed the dive, drop a ⭐ on the repo!**
-
-*Watch out for the jellyfish.* 🪼
-
-</div>
