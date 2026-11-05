@@ -1,62 +1,61 @@
-# README
+<div align="center">
 
 # 🌊 DeepSeaDiver 🤿
 
 ### Two subs. One ocean. Grab the gold before the deep grabs you.
 
-[Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Greenfoot](https://img.shields.io/badge/Greenfoot-3.x-2e7d32?style=for-the-badge)
+![Players](https://img.shields.io/badge/Players-2%20(local)-0288d1?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Playable-brightgreen?style=for-the-badge)
 
-[Greenfoot](https://img.shields.io/badge/Greenfoot-3.x-2e7d32?style=for-the-badge)
+<img src="screenshots/gameplay.png" alt="DeepSeaDiver gameplay: a green and an orange submarine hunting coins among sharks, mines and jellyfish" width="85%">
 
-[Players](https://img.shields.io/badge/Players-2%20(local)-0288d1?style=for-the-badge)
-
-[Status](https://img.shields.io/badge/Status-Playable-brightgreen?style=for-the-badge)
-
-![DeepSeaDiver gameplay: a green and an orange submarine hunting coins among sharks, mines and jellyfish](https://app.notion.comscreenshots/gameplay.png)
+</div>
 
 ---
 
-## What is this?
+## 🎮 What is this?
 
-**DeepSeaDiver** is a local two-player, head-to-head arcade game built with **Java** and [**Greenfoot**](https://www.greenfoot.org/). Pilot your submarine through a pixel-art ocean floor, scoop up as many **gold coins** as you can, and stay alive while sharks patrol, jellyfish drift, and sea mines wait for a bad turn.
+**DeepSeaDiver** is a local two-player, head-to-head arcade game built with **Java** and **[Greenfoot](https://www.greenfoot.org/)**. Pilot your submarine through a pixel-art ocean floor, scoop up as many **gold coins** as you can, and stay alive while sharks patrol, jellyfish drift, and sea mines wait for a bad turn.
 
 When the clock hits zero, whoever has more coins takes the trophy. 🏆
 
 ---
 
-## Controls
+## 🕹️ Controls
 
 Both players share one keyboard. Subs steer like real boats: **turn**, then **thrust**.
 
 | Action | 🟢 Green Sub (Player 1) | 🟠 Orange Sub (Player 2) |
-| --- | --- | --- |
+|---|:---:|:---:|
 | Move forward | `W` | `↑` |
 | Reverse | `S` | `↓` |
 | Turn left | `A` | `←` |
 | Turn right | `D` | `→` |
 
 | Screen | Key |
-| --- | --- |
+|---|---|
 | Pick match length | `1` `2` `3` `4` `5` (minutes) |
 | Play again after a match | `R` |
 
 ---
 
-## How to play
+## 🧭 How to play
 
 1. **Choose your dive time**: press `1`–`5` on the title screen for a 1 to 5 minute match.
 2. **Collect coins** 🪙 to score. Each coin is worth 1 point, and a new one pops up somewhere else right after.
 3. **Grab hearts** ❤️ to heal.
-4. **Dodge the danger.** Taking a hit gives you a brief moment of ghostly invincibility, so you won’t get chain-hit.
+4. **Dodge the danger.** Taking a hit gives you a brief moment of ghostly invincibility, so you won't get chain-hit.
 5. **Out of HP?** You respawn after 3 seconds with full health and a short shield.
 6. **Most coins when the timer ends wins.** Equal coins means a tie.
 
 ---
 
-## 🌊 What’s down there
+## 🌊 What's down there
 
-|  | Thing | What it does |
-| --- | --- | --- |
+| | Thing | What it does |
+|:---:|---|---|
 | 🪙 | **Gold Coin** | +1 score. Respawns at a random spot when collected. |
 | ❤️ | **Heart Emblem** | Restores **10 HP** (max 100). Respawns when collected. |
 | 💣 | **Sea Mine** | Explodes on contact for **20 damage**, then respawns elsewhere. |
@@ -67,27 +66,23 @@ Sound effects play for coins, stings, bites, explosions, and victory, with loopi
 
 ---
 
-## Run it yourself
+## 🚀 Run it yourself
 
 ### Prerequisites
-
-- **Java JDK** (Greenfoot ships with one, so you usually don’t need a separate install)
-- [**Greenfoot**](https://www.greenfoot.org/download)
+- **Java JDK** (Greenfoot ships with one, so you usually don't need a separate install)
+- **[Greenfoot](https://www.greenfoot.org/download)**
 
 ### Steps
-
 ```bash
 # 1. Clone the repo
 git clone https://github.com/rhjazzraymundo/DeepSeaDiver.git
 ```
+2. Open **Greenfoot** → **Scenario → Open…**
+3. Select the cloned `DeepSeaDiver` folder (the one containing `project.greenfoot`).
+4. Click **Compile All**, then press **Run** ▶️.
+5. On the title screen, press `1`–`5` and dive in.
 
-1. Open **Greenfoot** → **Scenario → Open…**
-2. Select the cloned `DeepSeaDiver` folder (the one containing `project.greenfoot`).
-3. Click **Compile All**, then press **Run** ▶️.
-4. On the title screen, press `1`–`5` and dive in.
-
-> 💡 Keep the `images/` and `sounds/` folders next to the `.java` files, or the sprites and audio won’t load.
-> 
+> 💡 Keep the `images/` and `sounds/` folders next to the `.java` files, or the sprites and audio won't load.
 
 ---
 
@@ -102,7 +97,7 @@ flowchart LR
 
 ---
 
-## Project structure
+## 🧱 Project structure
 
 ```
 DeepSeaDiver/
@@ -121,3 +116,27 @@ DeepSeaDiver/
 ```
 
 ---
+
+## 🔧 Ideas for future updates
+
+- [ ] Power-ups (speed boost, shield, magnet for coins)
+- [ ] Sonar torpedoes so subs can fight each other
+- [ ] Difficulty levels (more sharks, faster mines)
+- [ ] High-score tracking across matches
+- [ ] Solo mode against a bot sub
+
+---
+
+## 👨‍💻 Author
+
+Made by **Rhey** ([@rhjazzraymundo](https://github.com/rhjazzraymundo)), a BSIT student who likes building things that blink, beep, and occasionally bite.
+
+---
+
+<div align="center">
+
+**If you enjoyed the dive, drop a ⭐ on the repo!**
+
+*Watch out for the jellyfish.* 🪼
+
+</div>
